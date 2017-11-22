@@ -1,2 +1,2 @@
 # OnlineRemi
-Rime web app
+Remi web app
