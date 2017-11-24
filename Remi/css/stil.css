@@ -172,3 +172,8 @@ li a:hover {
     margin-top: 20px;
     background-color:#306bc9;
 }
+
+.error{
+
+    border: 1px solid red !important;
+}

@@ -11,8 +11,8 @@
                 <h1>Remi</h1>
                 <hr>
                 <span>Maksimalan broj igrača je 6 !</span></br>
-                <input type="name" placeholder="Broj igrača">
-                <input type="submit" value="Potvrdi" id="start"/>
+                <input type="name" placeholder="Broj igrača" id="brojIgraca" onblur="validateInput()">
+                <input type="submit" value="Potvrdi" id="start" onclick="buttonValidate('brojIgraca')">
             </div><!--end of cont1-->
             <div class="cont2">
                 <h1>Imena igrača:</h1>
@@ -23,8 +23,10 @@
                 <input type="hidden" class="igrac" placeholder="Četvrti igrač">
                 <input type="hidden" class="igrac" placeholder="Peti igrač">
                 <input type="hidden" class="igrac" placeholder="Šesti igrač">
-                <input type="hidden" value="Potvrdi" id="pocetak"/>
+                <input type="hidden" value="Potvrdi" id="pocetak" onclick="buttonValidatePlayers()">
             </div>
         </div><!--end of cont-->
     </body>
+
+    <script type="text/javascript" src = "../JavaScript/Validacija.js"></script>
 </html>
