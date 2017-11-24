@@ -100,6 +100,19 @@ function buttonValidatePlayers(){
 	}
 
 	if(valid){
-		location.href = "../html/runda.index";
+
+		storage();
+
+		location.href = "../html/runda.html";
+	}
+}
+
+function storage(){
+
+	var kljuc = "Igrac ";
+
+	for(var i = 0; i < element.value; i++){
+
+		sessionStorage.setItem(kljuc+(i+1), elementi[i].value);
 	}
 }
