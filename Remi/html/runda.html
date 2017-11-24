@@ -4,7 +4,7 @@
     
     if(sessionStorage.length == 0)
         location.href="index.html";
-     
+   
 </script>
 
 <html>
@@ -15,7 +15,7 @@
     </head>
     <body>
         <article>
-            <table align="center" class="table" id="tabela">
+            <table align="left" class="table" id="tabela">
                 <tr>
                     <td colspan="7" class="red"><h1>R e m i</h1></td>
                 </tr>
@@ -29,7 +29,20 @@
                 </tr>
 
             </table>
-        </article>    
+        </article>   
+         <div class="cont3">
+                <h1>Bodovi igrača:</h1>
+                <hr>
+                <input type="hidden" class="igrac" placeholder="Prvi igrač">
+                <input type="hidden" class="igrac" placeholder="Drugi igrač">
+                <input type="hidden" class="igrac" placeholder="Treći igrač">
+                <input type="hidden" class="igrac" placeholder="Četvrti igrač">
+                <input type="hidden" class="igrac" placeholder="Peti igrač">
+                <input type="hidden" class="igrac" placeholder="Šesti igrač">
+                <input type="button" id="pocetak1" value="Potvrdi" onclick="onclickValidateBodovi()">
+                <input type="button" name="izlaz" id="izlaz" value="Zavrsi Igru" onclick="buttonExit()">
+
+            </div>
     </body>
     <script type="text/javascript" src = "../JavaScript/InGame.js"></script>
 </html>

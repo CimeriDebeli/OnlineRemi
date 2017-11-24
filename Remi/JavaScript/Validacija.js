@@ -28,7 +28,6 @@ function validateInput(){
 		element.classList.add("error");		
 		return false;
 	}
-
 	else{
 
 		element.classList.remove("error");
@@ -98,11 +97,10 @@ function buttonValidatePlayers(){
 			valid = true;
 			
 	}
-
 	if(valid){
 
 		storage();
-
+        //console.log("uslo");
 		location.href = "../html/runda.html";
 	}
 }
@@ -112,7 +110,7 @@ function storage(){
 	var kljuc = "Igrac ";
 
 	for(var i = 0; i < element.value; i++){
-
-		sessionStorage.setItem(kljuc+(i+1), elementi[i].value);
+		window.sessionStorage.setItem(kljuc+(i+1), elementi[i].value);
+        console.log(elementi[i]); 
 	}
 }
