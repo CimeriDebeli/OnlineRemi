@@ -100,7 +100,6 @@ function buttonValidatePlayers(){
 	}
 
 	if(valid){
-
-		
+		location.href = "../html/runda.index";
 	}
 }
