@@ -5,7 +5,7 @@ body{
 }
 .container{
 	width: 76%;
-    height: 1090px;
+    height: 590px;
     background-color: white;
     margin-left: 12%;
     padding-top: 15px;
@@ -68,7 +68,7 @@ li a:hover {
 
 .container1{
 	width: 76%;
-	height: 890px;
+	height: 490px;
 	/*background-color: red;*/
 	margin-left: 12%;
 	margin-top: 40px;
